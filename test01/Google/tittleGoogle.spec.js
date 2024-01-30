@@ -9,6 +9,10 @@ test.only('Verify Application Tittle', async function ({ page }) {
     //console.log("the page tittle is " + pTittle)
     await expect(page).toHaveTitle("Google")
 
+
+
+    
+
 });
 
 
